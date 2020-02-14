@@ -28,7 +28,7 @@ Note that the geojson file is a dictionary which typically contains two keys:
 - **type**
 - **features**: a list containing multiple dictionaries, each of which has four keys - *type*, *geometry*, *properties*, *id*
  
-In the geojason file of Chinese map I used this time, each dictionary in features represents a province in China, where the geometry contains the coordinates of the province, the properties contains the province's specific info, and I used the province's name as its id.
+In the geojson file of Chinese map I used this time, each dictionary in features represents a province in China, where the geometry contains the coordinates of the province, the properties contains the province's specific info, and I used the province's name as its id. You can find the geojson file of China that I created in this repository as well.
 
 ***id is an important feature that will be used to plot your data on the map later**
  
